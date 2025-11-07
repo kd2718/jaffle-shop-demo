@@ -1,0 +1,11 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'jaffle_shop.duckdb'
+      threads: 4
+      # Optional: extensions allow them to do cool things like read directly from http/s3 if you want to get fancy later
+      extensions: 
+        - httpfs
+        - parquet

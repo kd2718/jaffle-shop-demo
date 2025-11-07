@@ -6,7 +6,8 @@ env
 target/
 dbt_packages/
 logs/
-profiles.yml
+#profiles.yml
+*.duckdb
 
 .DS_Store
 

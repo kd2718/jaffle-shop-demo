@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jaffle-shop-demo"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.15,>=3.10"
+dbt-core = "^1.10.13"
+dbt-duckdb = "^1.10.0"
+harlequin = "^2.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
